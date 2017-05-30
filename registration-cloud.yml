@@ -14,9 +14,10 @@ spring:
   thymeleaf:
     enabled: false     # Disable Thymeleaf 
 
-----
+
+---
 spring:
-  profiles:cloud
+  profiles: cloud
 # Configure this Discovery Server
 eureka:
   instance:
