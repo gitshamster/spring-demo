@@ -16,7 +16,7 @@ spring:
 
 ----
 spring:
-  profiles:default
+  profiles:default,cloud
 # Configure this Discovery Server
 eureka:
   instance:
