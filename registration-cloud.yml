@@ -18,6 +18,9 @@ spring:
 ---
 spring:
   profiles: cloud
+  # Discovery Server Dashboard uses FreeMarker.  Don't want Thymeleaf templates
+  thymeleaf:
+    enabled: false     # Disable Thymeleaf 
 # Configure this Discovery Server
 eureka:
   instance:
@@ -28,8 +31,3 @@ eureka:
      
 server:
   port: 1111   # HTTP (Tomcat) port
-
-# Discovery Server Dashboard uses FreeMarker.  Don't want Thymeleaf templates
-spring:
-  thymeleaf:
-    enabled: false     # Disable Thymeleaf 
