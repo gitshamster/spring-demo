@@ -17,7 +17,7 @@ spring:
 ----
 spring:
   profiles:cloud
-  # Configure this Discovery Server
+# Configure this Discovery Server
 eureka:
   instance:
     hostname: localhost
